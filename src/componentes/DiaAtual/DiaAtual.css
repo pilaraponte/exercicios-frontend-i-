@@ -1,0 +1,9 @@
+.DiaAtual {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+  
+    margin: 16px;
+  }
+  

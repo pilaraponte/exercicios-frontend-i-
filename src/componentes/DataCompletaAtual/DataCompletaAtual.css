@@ -1,0 +1,10 @@
+.DataCompletaAtual{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+
+  
+    margin: 16px;
+  }
+  

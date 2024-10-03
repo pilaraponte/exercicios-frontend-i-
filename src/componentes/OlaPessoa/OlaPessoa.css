@@ -1,0 +1,10 @@
+.OlaPessoa{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: blue;
+  
+    margin: 16px;
+}

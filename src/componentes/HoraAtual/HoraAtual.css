@@ -1,0 +1,13 @@
+.HoraAtual{
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        align-items: center;
+        background-color: blue;
+        color: yellow;
+      
+        margin: 16px;
+
+}

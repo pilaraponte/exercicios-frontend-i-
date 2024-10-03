@@ -1,0 +1,13 @@
+.MinutoAtual{
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        align-items: center;
+        background-color: pink;
+        color: black;
+      
+        margin: 16px;
+
+}
