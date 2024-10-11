@@ -1,9 +1,10 @@
 import './MinutoAtual.css';
 
 const MinutoAtual = () =>{
+    const minutoAtual_ = new Date().getMinutes();
     return(
         <>
-            <div className="MinutoAtual">30</div>
+            <div className="MinutoAtual">{minutoAtual_}</div>
         </>
     );
 };

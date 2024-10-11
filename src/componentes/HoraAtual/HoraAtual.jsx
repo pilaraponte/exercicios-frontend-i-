@@ -1,9 +1,11 @@
 import './HoraAtual.css'
 
 const HoraAtual = () => {
+
+    const horaAtual_ = new Date().getHours();
     return(
         <>
-        <div className="HoraAtual">20</div>
+        <div className="HoraAtual">{horaAtual_}</div>
         </>
     );
 };

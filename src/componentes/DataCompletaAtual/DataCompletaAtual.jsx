@@ -1,10 +1,20 @@
 import './DataCompletaAtual.css';
 
+
+
 const DataCompletaAtual = () => {
+
+    const diaAtual = new Date().getDate();
+    const mesAtual = new Date().getMonth()+1;
+    const anoAtual = new Date().getFullYear();
+    const horaAtual = new Date().getHours();
+    const minutoAtual = new Date().getMinutes();
+    const dataCompletaAtual = `${diaAtual}/${mesAtual}/${anoAtual} ${horaAtual}:${minutoAtual}`
+
 
     return(
         <>
-        <div className="DataCompletaAtual">15/03/2024 20:30</div>
+        <div className="DataCompletaAtual">{dataCompletaAtual}</div>
         
         </>
     );

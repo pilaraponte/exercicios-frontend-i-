@@ -1,9 +1,12 @@
 import './AnoAtual.css';
 
 const AnoAtual= () => {
-    return (
+
+  const anoAtual_ = new Date().getFullYear();
+
+  return (
       <>
-        <div className='AnoAtual'>2024</div>
+        <div className='AnoAtual'>{anoAtual_}</div>
       </>
     );
   };

@@ -3,10 +3,9 @@ import './OlaPessoa.css';
 
 
 
-const OlaPessoa = () => {
+const OlaPessoa = (props) => {
 
-  const  nome = "João";
-    
+  const  nome = props.nome;
     return(
         <>
         <div className="OlaPessoa"> Olá, {nome}!</div>

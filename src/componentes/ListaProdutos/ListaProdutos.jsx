@@ -1,25 +1,16 @@
 import './ListaProdutos.css';
 
 const ListaProdutos = () => {
+    const produtos =  ['Celular Samsung', 'Notebook Acer', 'Smart TV LG', 'Impressora HP', 'Tablet Multilaser', 'Monitor Dell'];
 
-   const produtoUm = "Celular Samsung";
-   const produtoDois = "Notebook Acer";
-   const produtoTres = "SmarTV LG";
-   const produtoQuatro = "Tablet Multilaser";
-   const produtoCinco = "Monitor Dell";
-   const produtoSeis = "Impressora HP"
-   
     return (
-        <>
-           <ul className='ListaProdutos'>
-            <li>{produtoUm}</li>
-            <li>{produtoDois}</li>
-            <li>{produtoTres}</li>
-            <li>{produtoQuatro}</li>
-            <li>{produtoCinco}</li>
-            <li>{produtoSeis}</li>
-           </ul>
-        </>
+        <div className='ListaProdutos'>
+            <ul>
+                {produtos.map((produto, index) => (
+                    <li key={index}>{produto}</li> 
+                ))}
+            </ul>
+        </div>
     );
 };
 

@@ -82,7 +82,7 @@ function App() {
       e mostra o texto: "Olá, nome!" em uma div com o fundo laranja, texto centralizado na cor branca.
       </span>
 
-      < OlaPessoa />
+      < OlaPessoa nome="João"/>
       <hr />
 
       <span>
