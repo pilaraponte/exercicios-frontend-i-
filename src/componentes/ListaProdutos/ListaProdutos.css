@@ -1,8 +1,7 @@
 .ListaProdutos{
 
-
+    display: flex;
     justify-content:left;
-    align-items: center;
     background-color: purple;
     color: yellow;
   

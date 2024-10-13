@@ -1,0 +1,8 @@
+.subtracao{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+
+    margin: 16px;
+}

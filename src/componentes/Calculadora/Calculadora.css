@@ -1,0 +1,8 @@
+.calculadora{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    color: white;
+
+    margin: 16px;
+}

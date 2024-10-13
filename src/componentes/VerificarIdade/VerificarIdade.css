@@ -1,4 +1,4 @@
-.VerificarIdadeUm{
+.idadeUm{
     display: flex;
     justify-content: center;
     background-color: green;
@@ -8,7 +8,7 @@
     margin: 16px;
 }
 
-.VerificarIdadeDois{
+.idadeDois{
     display: flex;
     justify-content: center;
     background-color: red;

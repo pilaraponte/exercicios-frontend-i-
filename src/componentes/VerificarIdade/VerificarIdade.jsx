@@ -1,18 +1,14 @@
-import './VerificarIdade.css'
+import './VerificarIdade.css';
 
-const VerificarIdade = () => {
+const VerificarIdade = (props) => {
 
-    const idadeUm = 18;
-    const idadeDois = 17;
+    const idadeUm = props.idadeUm; 
+    const idadeDois = props.idadeDois;
 
     return (
         <>
-            <div className="VerificarIdadeUm">
-                {idadeUm} anos, é {idadeUm >= 18 ? 'maior' : 'menor'} de idade!
-            </div>
-            <div className="VerificarIdadeDois">
-                {idadeDois} anos, é {idadeDois >= 18 ? 'maior' : 'menor'} de idade!
-            </div>
+        <div className='idadeUm'>{idadeUm} anos, é maior de idade.</div>
+        <div className='idadeDois'>{idadeDois} anos, é menor de idade.</div>
         </>
     );
 };

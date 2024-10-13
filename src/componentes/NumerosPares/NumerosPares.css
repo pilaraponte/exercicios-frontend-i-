@@ -1,0 +1,8 @@
+.numerosPares{
+    justify-content:left;
+    align-items: center;
+    background-color: blue;
+    color: yellow;
+
+    margin: 16px;
+}

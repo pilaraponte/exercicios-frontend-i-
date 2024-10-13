@@ -9,8 +9,15 @@ import DataCompletaAtual from './componentes/DataCompletaAtual/DataCompletaAtual
 import OlaPessoa from './componentes/OlaPessoa/OlaPessoa';
 import ListaProdutos from './componentes/ListaProdutos/ListaProdutos';
 import VerificarIdade from './componentes/VerificarIdade/VerificarIdade';
- 
-
+import NumerosPares from './componentes/NumerosPares/NumerosPares';
+import NumerosImpares from './componentes/NumerosImpares/NumerosImpares';
+import Soma from './componentes/Soma/Soma';
+import Subtracao from './componentes/Subtracao/Subtracao';
+import Divisao from './componentes/Divisao/Divisao';
+import Multiplicacao from './componentes/Multiplicacao/Multiplicacao';
+import Calculadora from './componentes/Calculadora/Calculadora';
+import TamanhoTexto from './componentes/TamanhoTexto/TamanhoTexto';
+import NomesOrdenados from './componentes/NomesOrdenados/NomesOrdenados';
 
 
 function App() {
@@ -105,11 +112,99 @@ function App() {
       idade.
       </span>
 
-      < VerificarIdade />
+      < VerificarIdade idadeUm="22" idadeDois="17"/>
       <hr />
 
+    <span>
+      11. Crie um componente chamado 'NumerosPares' que aceita uma prop chamada
+      'numeros' e deve ser uma lista de números inteiros. 
+      O componente deve mostrar uma lista com os números pares em uma ul com o
+      fundo azul e a letra amarela.
+    </span>
+    <NumerosPares />
+    <hr />
       
+    <span>
+      12. Crie um componente chamado 'NumerosImpares' que aceita uma prop chamada
+      'numeros' e deve ser uma lista de números inteiros.
+      O componente deve mostrar uma lista com os números ímpares em uma ul
+      com o fundo amarelo e a letra azul.
+    </span>
+    <NumerosImpares />
+    <hr />
+    
+    <span>
+      13. Crie um componente chamado 'Soma' que aceita as props 'num1', 'num2', o
+      componente deve mostrar:
+      O resultado da soma entre os dois números em uma div com o fundo marrom,
+      texto centralizado na cor branca.
+    </span>
+    <Soma numeroUm="3" numeroDois="3"/>
+    <hr />
+
+    <span>
+      14. Crie um componente chamado 'Subtracao' que aceita as props 'num1', 'num2', o
+      componente deve mostrar:
+      O resultado da subtração entre os dois números em uma div com o fundo cinza,
+      texto centralizado na cor branca.
+    </span>
+    <Subtracao numeroUm="10" numeroDois="3"/>
+    <hr />
+
+    <span>
+      15. Crie um componente chamado 'Divisao' que aceita as props 'num1', 'num2', o
+      componente deve mostrar:
+      O resultado da divisão entre os dois números em uma div com o fundo laranja,
+      texto centralizado na cor azul.
+    </span>
+    <Divisao numeroUm="15" numeroDois="3"/>
+    <hr />
+
+    <span>
+      16. Crie um componente chamado 'Multiplicacao' que aceita as props 'num1', 'num2',
+      o componente deve mostrar:
+      O resultado da multiplicação entre os dois números em uma  div com o fundo
+      laranja, texto centralizado na cor azul.
+    </span>
+    <Multiplicacao numeroUm="4" numeroDois="3"/>
+    <hr />
+
+    <span>
+      17. Crie um componente chamado 'Calculadora' que aceita as props 'num1', 'num2' e
+    'operacao'. A 'operacao' deve determinar que tipo de operação matemática que
+    deve ser realizada (ex: soma, subtracao, multiplicacao, divisao). O componente
+    deve mostrar:
+    O resultado da operação entre os dois números em uma div com o fundo verde,
+    texto centralizado na cor branca.
+    Utilize do switch nesse componente.
+    </span>
+    <Calculadora numeroUm="10" numeroDois="5" operacao="multiplicacao" />
+    <hr />
+
+    <span>
+      18.Crie um componente chamado 'TamanhoTexto' que aceita uma prop chamado
+      'texto', o componente deve mostrar:
+      O tamanho do texto informado em uma div com o fundo marrom, texto
+      justificado à direita na cor amarela.
+    <TamanhoTexto texto="Crie um componente chamado 'TamanhoTexto' que aceita uma prop chamado
+      'texto', o componente deve mostrar: "/>
+    </span>
+    <hr />
+
+    <span>
+      19. Crie um componente chamado 'NomesOrdenados' que aceita uma prop
+      chamado 'nomes' e deve ser uma lista com pelo menos 5 nomes de pessoas
+      aleatórias e não ordenada. O componente deve mostrar:
+      Uma lista ordenada dos nomes em ordem alfabética em uma ul com o fundo
+      rosa, texto na cor vermelha.
+      Utilize a função sort para ordenar a lista.
+    </span>
+    <NomesOrdenados />
+    <hr />
+
     </>
+
+
   );
 }
 

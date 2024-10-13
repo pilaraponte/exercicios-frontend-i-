@@ -1,6 +1,6 @@
 import './ListaProdutos.css';
 
-const ListaProdutos = () => {
+const ListaProdutos = (produto) => {
     const produtos =  ['Celular Samsung', 'Notebook Acer', 'Smart TV LG', 'Impressora HP', 'Tablet Multilaser', 'Monitor Dell'];
 
     return (
